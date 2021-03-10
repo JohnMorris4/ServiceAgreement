@@ -64,7 +64,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AWS\Examples\S3Example.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Analytics\AnalyticsTracker.cs" />
     <Compile Include="Assets\Insurance App\assets\Scripts\AWSManager.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Canvas.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Interface\IPanel.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\BorderPanel.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\ClientInfoPanel.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\LocationPanel.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\OverviewPanel.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\SearchPanel.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\SelectPanel.cs" />
+    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\TakePhotoPanel.cs" />
     <None Include="Assets\AWS\Examples\License.txt" />
     <None Include="Assets\AWS\Plugins\Android\AndroidManifest.xml" />
     <Reference Include="UnityEngine.Purchasing">
@@ -646,9 +656,6 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.32f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\.gitignore" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
